@@ -1,0 +1,71 @@
+USE projectmanagementdb;
+
+INSERT INTO customers VALUES (1, 'Intetics Inc');
+INSERT INTO customers VALUES (2, 'Materialise');
+INSERT INTO customers VALUES (3, '3Shape Ukraine');
+INSERT INTO customers VALUES (4, 'PMI Consult');
+INSERT INTO customers VALUES (5, 'Cloud Employee');
+INSERT INTO customers VALUES (6, 'SeedRoute');
+
+INSERT INTO companies VALUES (1, 'EPAM');
+INSERT INTO companies VALUES (2, 'SoftServe');
+INSERT INTO companies VALUES (3, 'Luxoft');
+INSERT INTO companies VALUES (4, 'InfoPulse');
+INSERT INTO companies VALUES (5, 'GlobalLogic');
+INSERT INTO companies VALUES (6, 'Ciklum');
+
+INSERT INTO skills VALUES (1, 'Java');
+INSERT INTO skills VALUES (2, 'C++');
+INSERT INTO skills VALUES (3, 'C#');
+INSERT INTO skills VALUES (4, 'Python');
+INSERT INTO skills VALUES (5, 'JavaScript');
+INSERT INTO skills VALUES (6, 'SQL');
+INSERT INTO skills VALUES (7, 'PHP');
+INSERT INTO skills VALUES (8, 'Scrum');
+INSERT INTO skills VALUES (9, 'Tomcat');
+INSERT INTO skills VALUES (10, 'Trello');
+
+INSERT INTO projects VALUES (1, 'ThousandEyes', 1, 1);
+INSERT INTO projects VALUES (2, 'Handy', 2, 2);
+INSERT INTO projects VALUES (3, 'Zenefits', 3, 3);
+INSERT INTO projects VALUES (4, 'AdRoll', 4, 4);
+INSERT INTO projects VALUES (5, 'Lyft', 5, 5);
+INSERT INTO projects VALUES (6, 'Stealth gadget', 6, 6);
+
+INSERT INTO developers VALUES (1, 'Ivan', 1, 1);
+INSERT INTO developers VALUES (2, 'Makar', 2, 2);
+INSERT INTO developers VALUES (3, 'Olga', 3, 3);
+INSERT INTO developers VALUES (4, 'Vadim', 4, 4);
+INSERT INTO developers VALUES (5, 'Vitja', 5, 5);
+INSERT INTO developers VALUES (6, 'Slava', 6, 6);
+INSERT INTO developers VALUES (7, 'Katja', 1, 1);
+INSERT INTO developers VALUES (8, 'Dasha', 2, 2);
+INSERT INTO developers VALUES (9, 'Vasil', 3, 3);
+INSERT INTO developers VALUES (10, 'Sasha', 4, 4);
+
+INSERT INTO developers_skills VALUES (1, 1);
+INSERT INTO developers_skills VALUES (1, 2);
+INSERT INTO developers_skills VALUES (2, 1);
+INSERT INTO developers_skills VALUES (2, 4);
+INSERT INTO developers_skills VALUES (2, 7);
+INSERT INTO developers_skills VALUES (3, 1);
+INSERT INTO developers_skills VALUES (3, 3);
+INSERT INTO developers_skills VALUES (3, 10);
+INSERT INTO developers_skills VALUES (4, 2);
+INSERT INTO developers_skills VALUES (4, 4);
+INSERT INTO developers_skills VALUES (5, 8);
+INSERT INTO developers_skills VALUES (5, 6);
+INSERT INTO developers_skills VALUES (6, 3);
+INSERT INTO developers_skills VALUES (6, 9);
+INSERT INTO developers_skills VALUES (7, 1);
+INSERT INTO developers_skills VALUES (7, 3);
+INSERT INTO developers_skills VALUES (7, 7);
+INSERT INTO developers_skills VALUES (8, 1);
+INSERT INTO developers_skills VALUES (8, 2);
+INSERT INTO developers_skills VALUES (8, 3);
+INSERT INTO developers_skills VALUES (8, 4);
+INSERT INTO developers_skills VALUES (9, 2);
+INSERT INTO developers_skills VALUES (9, 10);
+INSERT INTO developers_skills VALUES (10, 3);
+INSERT INTO developers_skills VALUES (10, 7);
+INSERT INTO developers_skills VALUES (10, 1);
