@@ -1,0 +1,96 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>choice</servlet-name>
+        <jsp-file>/jsp/choice.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>ManufacturerController</servlet-name>
+        <servlet-class>ua.servlets.controller.manufacturer.ManufacturerController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProductController</servlet-name>
+        <servlet-class>ua.servlets.controller.product.ProductControllerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>add-manufacturer-servlet</servlet-name>
+        <servlet-class>ua.servlets.controller.manufacturer.AddManufacturerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>list-manufacturer-servlet</servlet-name>
+        <servlet-class>ua.servlets.controller.manufacturer.ListAllManufacturerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>delete-manufacturer-servlet</servlet-name>
+        <servlet-class>ua.servlets.controller.manufacturer.DeleteManufacturerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>update-manufacturer-servlet</servlet-name>
+        <servlet-class>ua.servlets.controller.manufacturer.UpdateManufacturerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>add-product-servlet</servlet-name>
+        <servlet-class>ua.servlets.controller.product.AddProductServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>list-product-servlet</servlet-name>
+        <servlet-class>ua.servlets.controller.product.ListAllProductServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>update-product-servlet</servlet-name>
+        <servlet-class>ua.servlets.controller.product.UpdateProductServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>delete-product-servlet</servlet-name>
+        <servlet-class>ua.servlets.controller.product.DeleteProductServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>choice</servlet-name>
+        <url-pattern>/choice</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManufacturerController</servlet-name>
+        <url-pattern>/manufacturer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductController</servlet-name>
+        <url-pattern>/product</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>add-manufacturer-servlet</servlet-name>
+        <url-pattern>/addManufacturer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>list-manufacturer-servlet</servlet-name>
+        <url-pattern>/listManufacturer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>delete-manufacturer-servlet</servlet-name>
+        <url-pattern>/deleteManufacturer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>update-manufacturer-servlet</servlet-name>
+        <url-pattern>/updateManufacturer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>add-product-servlet</servlet-name>
+        <url-pattern>/addProduct</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>list-product-servlet</servlet-name>
+        <url-pattern>/listProduct</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>delete-product-servlet</servlet-name>
+        <url-pattern>/deleteProduct</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>update-product-servlet</servlet-name>
+        <url-pattern>/updateProduct</url-pattern>
+    </servlet-mapping>
+</web-app>
